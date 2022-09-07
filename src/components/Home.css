@@ -1,0 +1,26 @@
+.flexCent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.flexCentCol {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.homeContainer {
+  height: 100%;
+  width: 100%;
+}
+.half{
+height: 100%;
+width: 50%;
+}
+.photoBox{
+  height: 100%;
+  background-image: url('./../img/christina-wocintechchat-com-YCrgxs3e9lY-unsplash.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}

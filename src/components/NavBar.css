@@ -1,0 +1,45 @@
+.flex-cent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.navContainer{
+  font-family: 'Noto Serif', serif;
+  margin-top: 0;
+  width: 90%;
+  height: 12.5%;
+  border-bottom: 10px solid whitesmoke;
+  border-bottom-style: double;
+}
+.logoSide{
+  width: 40%;
+  font-size: 26px;
+}
+.logo {
+  text-decoration: none;
+  color: whitesmoke;
+  text-shadow: 3px 3px 4px black;
+  letter-spacing: 2px;
+}
+.navSide{
+  width: 60%;
+  margin-right: 20px;
+  font-size: 18px;
+}
+nav {
+  width: 90%;
+}
+.navSide ul{
+  list-style: none;
+  width: 100%;
+}
+.navSide li{
+  text-align: center;
+  width: 20%;
+}
+.navSide a {
+  text-decoration: none;
+  color: whitesmoke;
+  font-weight: bold;
+  text-shadow: 2px 2px 3px black;
+}
